@@ -1,4 +1,4 @@
-# Python_POO2_M4S2
+# Python_POO2_M4S2 desafio
 """
 @startuml
 class Persona {
@@ -19,6 +19,27 @@ class Persona {
     + set_sexo(sexo: str)
     + set_edad(edad: int)
     + set_estatura(estatura: float)
+    + set_peso(peso: float)
+}
+@enduml
+
+"""
+
+"""
+# Python_POO2_M4S2 Ejercicio
+@startuml
+class Animal {
+    - nombre: str
+    - raza: str
+    - edad: int
+    - peso: float
+    + get_nombre(): str
+    + get_raza(): str
+    + get_edad(): int
+    + get_peso(): float
+    + set_nombre(nombre: str)
+    + set_raza(raza: str)
+    + set_edad(edad: int)
     + set_peso(peso: float)
 }
 @enduml
